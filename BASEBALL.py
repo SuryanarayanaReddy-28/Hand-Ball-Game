@@ -43,7 +43,7 @@ def first_bat(): # defining function if we choose bat
         def update_scores():# function for updating scores
             player_score_label.config(text=f" target: {target}")
             computer_score_label.config(text=f"computer score: {computer_score}")
-            attempts_left_label.config(text=f"attempts left: {strikes_left}")
+            attempts_left_label.config(text=f"strikes left: {strikes_left}")
 
         player_score_label=Label(win,text="",highlightthickness=0,fg="white",bg="black")#creating widgets with set of parameters
         player_score_label.pack()# packing the widgets
@@ -93,7 +93,7 @@ def first_bat(): # defining function if we choose bat
     
         def update_scores():
             player_score_label.config(text=f"YOUR SCORE: {player_score}")
-            attempts_left_label.config(text=f"attempts left: {strikes_left}")
+            attempts_left_label.config(text=f"strikes left: {strikes_left}")
 
         player_score_label=Label(win,text="",highlightthickness=0,fg="white",bg="black")
         player_score_label.pack()
@@ -147,7 +147,7 @@ def first_bowl():
         def update_scores():
         
             computer_score_label.config(text=f"computer score: {computer_score}")
-            attempts_left_label.config(text=f"attempts left: {strikes_left}")
+            attempts_left_label.config(text=f"strikes left: {strikes_left}")
 
         
 
@@ -204,7 +204,7 @@ def first_bowl():
     
         def update_scores():
             player_score_label.config(text=f"YOUR SCORE: {player_score}")
-            attempts_left_label.config(text=f"attempts left: {strikes_left}")
+            attempts_left_label.config(text=f"strikes left: {strikes_left}")
 
         player_score_label=Label(win,text="",highlightthickness=0,fg="white",bg="black")
         player_score_label.pack()
