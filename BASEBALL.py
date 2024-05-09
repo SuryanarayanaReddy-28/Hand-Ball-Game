@@ -238,11 +238,11 @@ win.configure(bg="black") #setting window background color
 win.title("Base Ball") #setting window title
 
 win.resizable(width= False, height=False) #setting window size to fixed
-current_dir=os.getcwd() #getting current directory
-print(current_dir)
-image=PhotoImage(file=r"C:\Users\Arun Shyam\pro\project\croc.png")
+
+
+image=PhotoImage(file="croc.png")
 win.iconphoto(True,image) #setting window icon
-lat=PhotoImage(file=r"C:\Users\Arun Shyam\pro\project\cricketp.png")
+lat=PhotoImage(file="cricketp.png")
 canvas=Canvas(win,width=400,height=400) #creating canvas
 canvas.place(relwidth=1,relheight=1)
 canvas.create_image(200,200,anchor=CENTER,image=lat) #setting bg image
